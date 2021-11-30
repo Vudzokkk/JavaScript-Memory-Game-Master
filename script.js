@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
         alert('You have clicked the same image!')
       }
       else if (cardsChosen[0] === cardsChosen[1]) {
-        alert('You found a match')
+        alert('Chuẩn rồi eiu<3')
         cards[optionOneId].setAttribute('src', 'images/white.png')
         cards[optionTwoId].setAttribute('src', 'images/white.png')
         cards[optionOneId].removeEventListener('click', flipCard)
